@@ -1,0 +1,91 @@
+body{
+      background: #2b2d42;
+      box-sizing: border-box;
+      min-height: 50vh;
+}
+.navBar{
+      background: #8d99ae;
+      width: auto;
+      height: 10%;
+      margin-top: -20px;
+      border-radius: 1%;
+     border: none;
+}
+.Navbar{
+      text-align: center;
+}
+.NavbarHeader{
+      color: #edf2f4;
+      font-size: 34px;
+      font-family: Helvetica;
+}
+.footer{
+      margin-top: 18%;
+      width: auto;
+      padding: 20px;
+      text-align: center;
+}
+.footertext{
+      font-family: Helvetica;
+      font-size: 16px;
+}
+.moviesearch{
+      background: transparent;
+      width: auto;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      /* border: 2px solid #edf2f4; */
+}
+.formlabel{
+      font-size: 24px;
+      margin-top: 2%;
+      color: #8d99ae;
+}
+
+.searchDetails{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+}
+.formInput{
+      width: 290px;
+      height: 30px;
+}
+
+.clearBtn{
+      background: #2b2d42;
+      padding: 10px;
+      font-size: 16px;
+      color: #edf2f4;
+      text-decoration: none;
+      border-top: none;
+      border-left: none;
+      box-shadow: 2px soild #edf2f4;
+}
+
+.SearchItem{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap:5px;
+      justify-content: center;
+}
+img{
+      margin-top: 4px;
+      width: 50%;
+      
+}
+.MovieItems{
+      background:#8d99ae;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+}
+h3,p{
+      font-size: 16px;
+      color: #edf2f4;
+}
