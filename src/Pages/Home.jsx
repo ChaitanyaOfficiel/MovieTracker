@@ -1,12 +1,13 @@
 import React,{useState, useEffect, useRef} from 'react'
 function Home() {
+  let appId = "Place your API"
   const ref = useRef
   const [name, setName] = useState("")
   const [movies, setMovies] = useState([])
 useEffect(() => {
  const interval = setInterval(() => {
     const fetchMovies = async () => {
-      const res = await fetch(`https://www.omdbapi.com/?s=${name}&plot=full&apikey={'appId}`)
+      const res = await fetch(`https://www.omdbapi.com/?s=${name}&plot=full&apikey={appId}`)
       const data = await res.json()
       setMovies(data.Search)
     }  
