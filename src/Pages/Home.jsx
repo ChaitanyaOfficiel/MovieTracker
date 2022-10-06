@@ -7,7 +7,7 @@ function Home() {
 useEffect(() => {
  const interval = setInterval(() => {
     const fetchMovies = async () => {
-      const res = await fetch(`https://www.omdbapi.com/?s=${name}&plot=full&apikey={appId}`)
+      const res = await fetch(`https://www.omdbapi.com/?s=${name}&plot=full&apikey=${appId}`)
       const data = await res.json()
       setMovies(data.Search)
     }  
